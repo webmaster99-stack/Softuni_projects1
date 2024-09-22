@@ -18,3 +18,10 @@ if the user's choise is 1 - call functions_module.sting_manipulation() etc. I've
 
 Pattern Drawing - pattern drawing programs for different types of patterns, drwawn by using nested for loops
 
+Rock Paper Scissors is a simple game that takes input form the user( r for rock, p for paper and s for scissors), a random number in range 1 to 3 for the computer choice( 1 for rock, 2 for paper and 3 for scissors), then comperes them and depending on the result displays a
+message
+The rules are as follows:
+Rock breaks scissors
+Scissors cuts paper
+Papper covers rock
+If both choices are the same the result is a Draw
