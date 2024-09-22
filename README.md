@@ -7,6 +7,8 @@ Interactive Data Type Operations System is a simple software that takes input fr
 3. Booleans
 4. Aditional data types(Lists, Tuples, Dictionaries)
 
+
+
 1. Strings - the software declares a variable named sentence and assigns the string value Learning Python is fun, then extracs the word python using string slicing and displays it, then converts the entire string in uppercase letters and displays it.
 2. Numbers - the software asks the user to input two numbers, the it performs basic arithmetic operations with te numbers(addition, subtraction, multiplrcation, division, exponent) and displays the result. I've handled the case of division by zero in case the user inputs zero as the second number
 3. Booleans - the software declares two variables - is_python_fun with a value of True and is_funny with the value of False, then it performs logical operations with and, or and not operators and comparison operators and displays the results
