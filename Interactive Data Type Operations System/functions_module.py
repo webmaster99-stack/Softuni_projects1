@@ -8,7 +8,9 @@ def menu():
 
 def string_manipulation():
     print('You choose strings')
+    my_string = ' ,no doubt!'
     sentence = 'Learning Python is fun'
+    print(sentence + my_string)
     print(sentence[9:15])
     print(sentence.upper())
     print(sentence.replace('fun','awesome'))
@@ -28,7 +30,7 @@ def number_manipulation():
             print('Cannot divide any number by zero')
     else:
         print(f'Division: {num1} / {num2} = {num1 / num2}')
-
+        print(f'Calculating reminder: {num1} % {num2} = {num1 % num2}')
     print(f'{num1} raised to the power of {num2} is: {num1 ** num2}')
 
 
