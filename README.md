@@ -1,5 +1,6 @@
 # Softuni_projects1
 This repository has all projects I have done at school
+## Interactive Data Type Operations System
 
 Interactive Data Type Operations System is a simple software that takes input from the user (a number between 1 and 4) and performs operations depending no the coresponding data type
 1. Strings
@@ -15,8 +16,11 @@ Additional Data Types - the software creates a list, a tuple and a dictionary an
 I've separeted the logic of the software into two modules - functions_mudule which comtains function definitions for the different operations corresponding to the different data types and main_logic module which takes the user input and performs control flow on it. I've imported functions_module in main_logic module and in the check section called the corresponding function:
 if the user's choise is 1 - call functions_module.sting_manipulation() etc. I've handled the case in which the user inputs a different input than the required by printing the message 'Invalid input! Please enter a number between 1 and 4'
 
+## Pattern Drawing
 
-Pattern Drawing - pattern drawing programs for different types of patterns, drwawn by using nested for loops
+Pattern drawing programs for different types of patterns, drwawn by using nested for loops
+
+## Rock Paper Scissors 
 
 Rock Paper Scissors is a simple game that takes input form the user( r for rock, p for paper and s for scissors), a random number in range 1 to 3 for the computer choice( 1 for rock, 2 for paper and 3 for scissors), then comperes them and depending on the result displays a
 message
@@ -26,5 +30,6 @@ Scissors cuts paper
 Papper covers rock
 If both choices are the same the result is a Draw
 
+## Guess The Number
 
 Guess The Number is a simple game that takes a random number between 1 and 100 for the computer's choice and a number for the user's input. The game takes the user's input implementing a while loop and compares the two numpers(user input and computer's choice) and depending on the case displays a message: if the user's input matches the computer's choice the message 'You gueesed it!' is displayed and the game ends, if the user's input is greater than the computer's choice the message 'Too high!' is displayed, if the user's input is smaller than the computer's choice the message 'Too low!' is displayed. I've handled the case in which the user inputs anything different than a number be displaying the message 'Invalid input! Try again..' 
